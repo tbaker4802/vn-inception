@@ -17,3 +17,5 @@ Themes can use pre compiled apps if they are:
 
 This script is used to read the manifest (siteInfo.json) at site.url/settings/siteInfo.json and parse for the apps array. THe apps array is a list of strings (as moduleName) and url's. It will download the apps and make them avaialbe in the DOM. Then it will defer the theme bootstrap process until it is added to the depenency's array used by $injector in the angular.resumeBootstrap funciton.
 
+# Notes
+Still working through the realities of doing it this way. Dependency's are for runtime and testing. Not sure if the .bowerrc directory needs to be the same as themes ...
