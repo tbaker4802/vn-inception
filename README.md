@@ -8,7 +8,7 @@ A tool for bootstrapping Volusion Themes with other apps as dependency's.
 
 1. beginning; start; commencement.
 2. (in science fiction) the act of instilling an idea into someone's mind by entering his or her dreams.
-3. 3. (in volusion themes) the act of downloading and injecting pre built apps as dependency' listed in a manifest
+3. (in volusion themes) the act of downloading and injecting pre built apps as dependency's listed in a manifest
 
 # Overview
 Themes can use pre compiled apps if they are: 
