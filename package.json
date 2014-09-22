@@ -1,6 +1,6 @@
 {
   "name": "vn-inception",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A tool for bootstrapping Volusion Themes with other apps as dependency's.",
   "main": "vn-inception.js",
   "scripts": {
