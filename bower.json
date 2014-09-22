@@ -1,6 +1,9 @@
 {
   "name": "vn-inception",
   "version": "0.0.4",
+  "main": [
+    "dist/theme-dream.js"
+  ],
   "ignore": [
     "src",
     "spec",
