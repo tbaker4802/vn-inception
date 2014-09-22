@@ -2,7 +2,7 @@
   "name": "vn-inception",
   "version": "0.0.5",
   "description": "A tool for bootstrapping Volusion Themes with other apps as dependency's.",
-  "main": "theme-dream.js",
+  "main": "vn-inception.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

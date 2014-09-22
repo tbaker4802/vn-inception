@@ -41,7 +41,7 @@ module.exports = function (grunt) {
 						cwd   : 'src/',
 						dest  : 'dist/',
 						src   : [
-							'theme-dream.js'
+							'vn-inception.js'
 						]
 					}
 				]
@@ -61,13 +61,13 @@ module.exports = function (grunt) {
 			},
 			all    : [
 				'Gruntfile.js',
-				'/src/theme-dream.js'
+				'/src/vn-inception.js'
 			],
 			test   : {
 				options: {
 					jshintrc: 'test/.jshintrc'
 				},
-				src    : ['test/spec/theme-dream.spec.js']
+				src    : ['test/spec/vn-inception.js.spec.js']
 			}
 		},
 
@@ -87,7 +87,7 @@ module.exports = function (grunt) {
 			},
 			scripts: {
 				files: {
-					'dist/theme-dream.min.js': ['src/theme-dream.js']
+					'dist/vn-inception.js.min.js': ['src/vn-inception.js']
 				}
 			}
 		}
