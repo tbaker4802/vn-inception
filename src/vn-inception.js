@@ -4,7 +4,7 @@
 		var appResources = [],
 			appModuleNames = [];
 
-		angular.injector(['ng']).invoke(function ($http) {
+		angular.injector(['ng']).invoke(['$http', function ($http) {
 			$http.get('settings/themeInfo.json').then(function (response) {
 				angular.forEach(response.data.apps, function (app) {
 					appResources.push(app.scriptSrc);
@@ -17,6 +17,6 @@
 				});
 
 			});
-		});
+		}]);
 	});
 })(angular);
